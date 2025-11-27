@@ -1,0 +1,88 @@
+h3{
+background-color: aqua;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-size: cover;
+}
+
+.section {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+input, select, button {
+  margin: 10px 0;         
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;           
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.section{
+     display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  background:url(https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111508.jpg?semt=ais_hybrid&w=740&q=80);
+  background-size:cover;
+  border:none;
+
+}
+.kushal{
+    background: rgba(255, 114, 38, 0.6);
+  border-radius: 15px;
+  width: 20%;
+  padding: 150px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
